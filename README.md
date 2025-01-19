@@ -42,3 +42,9 @@ In this app, BLoC is used to manage the state of the meal plan creation and modi
 By using BLoC, we ensure that the app's state remains consistent, and the UI only reflects the current state, making the app more scalable and easier to maintain in the long run.
 
 Modify feature is not yet complete. You need to add one mealplan in order to see the existing meal details on setplan screen.
+
+![mealpal2](https://github.com/user-attachments/assets/34dd822a-ddd8-4ff9-89e4-75456d8408b6)
+
+![mealpal3](https://github.com/user-attachments/assets/fa00711c-be64-4a8c-af1c-907ce32eb631)
+
+![mealpal1](https://github.com/user-attachments/assets/eb61ca23-044b-4018-b675-3c71ca33f928)
