@@ -1,0 +1,281 @@
+{
+  "foodManagement": {
+    "mealPlans": [
+      {
+        "id": 1,
+        "name": "Option Plan 1",
+        "day": "Monday",
+        "frequency": "daily",
+        "amount": 500,
+        "priceBreakdown": {
+          "breakfast": 150,
+          "lunch": 200,
+          "dinner": 150
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "07:00 AM",
+            "endTime": "09:00 AM",
+            "items": [
+              { "diet": "veg", "name": "poha" },
+              { "diet": "veg", "name": "idli" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "lunch",
+            "startTime": "12:00 PM",
+            "endTime": "02:00 PM",
+            "items": [
+              { "diet": "veg", "name": "dal rice" },
+              { "diet": "veg", "name": "paneer curry" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "dinner",
+            "startTime": "07:00 PM",
+            "endTime": "09:00 PM",
+            "items": [
+              { "diet": "non-veg", "name": "chicken biryani" },
+              { "diet": "veg", "name": "mixed veg curry" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Option Plan 2",
+        "day": "Tuesday",
+        "frequency": "daily",
+        "amount": 450,
+        "priceBreakdown": {
+          "dinner": 350
+        },
+        "meals": [
+          {
+            "id": 2,
+            "type": "dinner",
+            "startTime": "08:00 PM",
+            "endTime": "09:30 PM",
+            "items": [
+              { "diet": "veg", "name": "paneer tikka" },
+              { "diet": "veg", "name": "butter naan" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Option Plan 3",
+        "day": "Wednesday",
+        "frequency": "daily",
+        "amount": 600,
+        "priceBreakdown": {
+          "breakfast": 200,
+          "lunch": 250,
+          "dinner": 150
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "08:00 AM",
+            "endTime": "09:30 AM",
+            "items": [
+              { "diet": "veg", "name": "aloo paratha" },
+              { "diet": "veg", "name": "curd" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "lunch",
+            "startTime": "01:00 PM",
+            "endTime": "02:30 PM",
+            "items": [
+              { "diet": "veg", "name": "rajma chawal" },
+              { "diet": "veg", "name": "green salad" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "dinner",
+            "startTime": "07:30 PM",
+            "endTime": "09:00 PM",
+            "items": [
+              { "diet": "veg", "name": "veg pulao" },
+              { "diet": "non-veg", "name": "fish curry" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Option Plan 4",
+        "day": "Thursday",
+        "frequency": "daily",
+        "amount": 550,
+        "priceBreakdown": {
+          "breakfast": 150,
+          "lunch": 200,
+          "dinner": 200
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "07:30 AM",
+            "endTime": "09:00 AM",
+            "items": [
+              { "diet": "veg", "name": "toast" },
+              { "diet": "veg", "name": "omelette" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "lunch",
+            "startTime": "12:30 PM",
+            "endTime": "02:00 PM",
+            "items": [
+              { "diet": "veg", "name": "kadhi chawal" },
+              { "diet": "veg", "name": "pickle" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "dinner",
+            "startTime": "08:00 PM",
+            "endTime": "09:30 PM",
+            "items": [
+              { "diet": "veg", "name": "chole bhature" },
+              { "diet": "veg", "name": "raita" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Option Plan 5",
+        "day": "Friday",
+        "frequency": "daily",
+        "amount": 500,
+        "priceBreakdown": {
+          "breakfast": 200,
+          "lunch": 150,
+          "dinner": 150
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "07:00 AM",
+            "endTime": "08:30 AM",
+            "items": [
+              { "diet": "veg", "name": "upma" },
+              { "diet": "veg", "name": "banana" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "lunch",
+            "startTime": "01:00 PM",
+            "endTime": "02:00 PM",
+            "items": [
+              { "diet": "veg", "name": "biryani" },
+              { "diet": "veg", "name": "curd" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "dinner",
+            "startTime": "07:30 PM",
+            "endTime": "09:00 PM",
+            "items": [
+              { "diet": "veg", "name": "dal tadka" },
+              { "diet": "veg", "name": "naan" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Option Plan 6",
+        "day": "Saturday",
+        "frequency": "daily",
+        "amount": 400,
+        "priceBreakdown": {
+          "breakfast": 150,
+          "dinner": 250
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "08:00 AM",
+            "endTime": "09:00 AM",
+            "items": [
+              { "diet": "veg", "name": "dosa" },
+              { "diet": "veg", "name": "sambar" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "dinner",
+            "startTime": "07:30 PM",
+            "endTime": "09:30 PM",
+            "items": [
+              { "diet": "veg", "name": "veg noodles" },
+              { "diet": "veg", "name": "manchurian" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Option Plan 7",
+        "day": "Sunday",
+        "frequency": "weekly",
+        "amount": 700,
+        "priceBreakdown": {
+          "breakfast": 300,
+          "lunch": 200,
+          "dinner": 200
+        },
+        "meals": [
+          {
+            "id": 1,
+            "type": "breakfast",
+            "startTime": "08:30 AM",
+            "endTime": "10:00 AM",
+            "items": [
+              { "diet": "veg", "name": "pancakes" },
+              { "diet": "veg", "name": "maple syrup" }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "lunch",
+            "startTime": "01:00 PM",
+            "endTime": "02:30 PM",
+            "items": [
+              { "diet": "veg", "name": "pizza" },
+              { "diet": "veg", "name": "salad" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "dinner",
+            "startTime": "07:30 PM",
+            "endTime": "09:00 PM",
+            "items": [
+              { "diet": "veg", "name": "soup" },
+              { "diet": "veg", "name": "bread rolls" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
