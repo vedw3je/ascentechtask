@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-# meal_pal
+MealPal
 
-A new Flutter project.
 
-## Getting Started
+**1. Home Screen**
+The Home Screen displays a list of all saved meal plans.
+You can view the meal plans and long-press a card to access the Set Plan Screen for more details.
+**2. Add Plan Screen**
+On this screen, users can create a new meal plan by entering:
+The name of the meal plan.
+The individual costs for breakfast, lunch, and dinner.
+The frequency of the meals.
+After entering these details, users can save the meal plan for future use.
+**3. Set Plan Screen**
+This screen is accessed by long-pressing a meal card on the Home Screen.
+It displays all the details of the selected meal plan, such as meal names, costs, and frequency.
+The feature to modify meal plans directly on this screen is still under development.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# ascentechtask
->>>>>>> ad29171909c78bb908d67c42d569556196e75a07
